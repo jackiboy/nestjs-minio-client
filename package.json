@@ -43,7 +43,6 @@
     "format": "prettier **/**/*.ts --ignore-path ./.prettierignore --write && git status",
     "prepublishOnly": "npm run format && npm run build",
     "postversion": "git push && git push --tags",
-    "postinstall": "husky install",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable"
   },
